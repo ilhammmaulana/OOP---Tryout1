@@ -34,6 +34,7 @@ class Connection
             throw $th;
         }
     }
+    // INI BRANCH MASTER
     public static function get()
     {
         $result = self::$connection->query(self::$sql);
